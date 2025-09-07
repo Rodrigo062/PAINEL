@@ -1,0 +1,10 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Ubuntu",sans-serif;}
+body{background:#f8f9fa;color:#333;}
+header{background:#0d6efd;color:#fff;padding:15px;display:flex;justify-content:space-between;align-items:center;}
+header button{background:#dc3545;border:none;padding:8px 12px;border-radius:6px;color:#fff;cursor:pointer;}
+main{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;padding:20px;}
+.card{background:#fff;padding:20px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+table{width:100%;border-collapse:collapse;}
+th,td{padding:10px;border:1px solid #ddd;text-align:left;}
+button.deleteBtn{background:#dc3545;color:#fff;border:none;padding:6px 10px;border-radius:4px;cursor:pointer;}
+button.deleteBtn:hover{opacity:0.8;}
